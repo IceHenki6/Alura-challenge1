@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="src/styles.css">
+        <title>Encriptador</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <div id="logo">
+            <img src="images/Vector.png" alt="Logo de Alura">
+        </div>
+        
+        <div id="one">
+            <textarea id="text" autofocus name="text" placeholder="Ingrese aqui el texto">
+                
+            </textarea>
+            <div id="container-advertencia">
+                <img id="warning-sign" src="images/warning.png" alt="señal de advertencia">
+                <p id="advertencia">Solo letras minúsculas y sin acento</p>
+            </div>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>   
+            </div>
+            
+        </div>
+
+
+        
+        <div id="two">
+            <div id="inner-two">
+                <div id="figura-inicial">
+                    <img id="dibujo-img" src="images/Muñeco.svg" alt="muneco mirando un diamante con una lupa">
+                    <div id="initial-text1">
+                        <h1>Ningún mensaje fue encontrado</h1>
+                    </div>
+                    
+                    <div id="initial-text2">
+                        <h2>Ingresa el texto que deseas encriptar o desencriptar</h2>
+                    </div>
+                </div>
+                <div id="display-texto">
+                    <div id="displayed-text">
+
+                    </div>
+                    <div id="btn-container">
+                        <button id="copy-btn">Copiar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="src/app.js"></script>
+    </body>
+
+</html>
