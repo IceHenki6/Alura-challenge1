@@ -39,10 +39,10 @@ function desencriptar(){
         }
     
         dibujo.style.display = 'none';
-        str = input.value;
-        let reemplazos = ['imes','ai','enter','ober','ufat'];
-        let keyLetters = [/imes/g,/ai/g,/enter/g,/ober/g,/ufat/g];
-        let vocales = ['i','a','e','o','u'];
+        let str = input.value;
+        const reemplazos = ['imes','ai','enter','ober','ufat'];
+        const keyLetters = [/imes/g,/ai/g,/enter/g,/ober/g,/ufat/g];
+        const vocales = ['i','a','e','o','u'];
     
         for(let i = 0; i<reemplazos.length;i++){
             if(str.includes(reemplazos[i])){
@@ -67,12 +67,12 @@ function encriptador(){
         if (flag2 || flag1){
             limpiarPantalla();
         }
-        str = input.value;
+        let str = input.value;
         dibujo.style.display = 'none';
-        arr1 = str.split('');
-        arrCopia= [...arr1];
-        let reemplazos = ['imes','ai','enter','ober','ufat'];
-        let vocales = ['i','a','e','o','u'];
+        let arr1 = str.split('');
+        let arrCopia= [...arr1];
+        const reemplazos = ['imes','ai','enter','ober','ufat'];
+        const vocales = ['i','a','e','o','u'];
         
         for(let i=0; i<vocales.length;i++){
            for(let j=0;j<arr1.length;j++){
