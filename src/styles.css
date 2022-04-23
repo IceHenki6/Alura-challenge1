@@ -385,20 +385,20 @@ footer{
     }
  
     #text-on-screen{
-        height: 60vh;
+        height: 40vh;
     } 
 
     #displayed-text{
-        min-height: 60vh;
+        min-height: 40vh;
     }
     #dibujo-img{
         display: none;
     }
-    #one{ 
-        margin-top: 20vh;
-        margin-left: 2vw;
+    #one{   
+        margin-top: 15vh;
+        margin-left: 5%;
         position:relative;
-        height:30vh;
+        height:25vh;
         width: 70vw;
         margin-bottom: 40px;
     }
@@ -407,10 +407,18 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-bottom: 20vh;
+    }
+
+    #encrypt-btn{
+        width: 80vw;
+    }
+    #decrypt-btn{
+        width: 80vw;
     }
     #two{
         position:relative;
-        margin-top: 20vh;
+        margin-top: 55%;
         margin-left: 3vw;
         left:0vw;
         width: 90vw;
@@ -418,7 +426,9 @@ footer{
         margin-bottom: 5px;
     }
 
-
+    #inner-two{
+        padding: 25px;
+    }
     #initial-text1{
         margin: 0px;
         font-size: 12px;
@@ -427,7 +437,7 @@ footer{
 
     #initial-text2{
         font-size: 8px;
-        line-height: 150%;
+        line-height: 140%;
     }
 
     #copy-btn{
