@@ -286,6 +286,16 @@ body{
     cursor: pointer;
 }
 
+footer{
+    position:absolute;
+    font-family: 'Inter';
+    font-size: 6px;
+    bottom: 0px;
+    left: 20px;
+    margin-top: 10px;
+    color: #0d4487;
+}
+
  @media only screen and (max-width: 1024px) {
     #figura-inicial{
         justify-content: center;
@@ -342,6 +352,10 @@ body{
     #copy-btn{
         margin-top: 20px;
     }
+    footer{
+        position:relative;
+        margin-top: 20px;
+    }
   }
 
   @media only screen and (max-width: 1500px){
@@ -353,3 +367,4 @@ body{
         font-size: 12px;
     }
   }
+
