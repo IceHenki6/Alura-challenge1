@@ -68,8 +68,9 @@ function encriptador(){
             limpiarPantalla();
         }
         let str = input.value;
+        let strMinuscula = str.toLowerCase();
         dibujo.style.display = 'none';
-        let arr1 = str.split('');
+        let arr1 = strMinuscula.split('');
         let arrCopia= [...arr1];
         const reemplazos = ['imes','ai','enter','ober','ufat'];
         const vocales = ['i','a','e','o','u'];
